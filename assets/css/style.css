@@ -28,10 +28,15 @@ input {
     border-radius: 3px;
     font-size: 1.05em;
     padding:1px 3px;
+    background-color: transparent;
+}
+
+label {
+    z-index: -1;
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #00a8eb;
     border: 1px black solid;
     color: white;
     padding: 3px 6px;
